@@ -26,9 +26,11 @@ pro(ale).
   Execute a list of actions
 */
 execute([]).
-execute([[A|_]|L]) :-
-	call(A),
-	execute(L).
+execute([A|B]):-
+    execute(A),
+    execute(B).
+execute(A):-
+    call(A).
 
 /*
   Checks if all the conditions in the list
