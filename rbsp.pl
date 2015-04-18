@@ -18,7 +18,7 @@
   Some facts
 */
 linuxUser(ale).
-gay(sergio).
+lazy(sergio).
 pro(sergio).
 pro(ale).
 
