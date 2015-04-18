@@ -11,7 +11,7 @@
 /*
   Rules defintion
 */
-[gay(X), pro(X)] ==> [assertz(progay(X))].
+[pro(X), lazy(X)] ==> [assertz(lazypro(X))].
 [linuxUser(X), pro(X)] ==> [assertz(god(X))].
 
 /*
